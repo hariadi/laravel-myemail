@@ -1,11 +1,11 @@
 <?php
 
-namespace GovTech\MyEmail\Tests;
+namespace Hariadi\MyEmail\Tests;
 
-use GovTech\MyEmail\Exceptions\MyEmailConfigurationException;
-use GovTech\MyEmail\Exceptions\MyEmailRequestException;
-use GovTech\MyEmail\Exceptions\MyEmailTransientException;
-use GovTech\MyEmail\MyEmailTransport;
+use Hariadi\MyEmail\Exceptions\MyEmailConfigurationException;
+use Hariadi\MyEmail\Exceptions\MyEmailRequestException;
+use Hariadi\MyEmail\Exceptions\MyEmailTransientException;
+use Hariadi\MyEmail\MyEmailTransport;
 use Illuminate\Http\Client\ConnectionException;
 use Illuminate\Http\Client\Request;
 use Illuminate\Support\Facades\Http;

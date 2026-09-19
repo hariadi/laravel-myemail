@@ -1,6 +1,6 @@
 <?php
 
-namespace GovTech\MyEmail\Exceptions;
+namespace Hariadi\MyEmail\Exceptions;
 
 use Symfony\Component\Mailer\Exception\TransportException;
 

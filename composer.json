@@ -1,5 +1,5 @@
 {
-    "name": "govtech/laravel-myemail",
+    "name": "hariadi/laravel-myemail",
     "description": "Laravel mail transport for the MYEmail government email delivery service (HTTP API, no SMTP).",
     "keywords": [
         "laravel",
@@ -25,18 +25,18 @@
     },
     "autoload": {
         "psr-4": {
-            "GovTech\\MyEmail\\": "src/"
+            "Hariadi\\MyEmail\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "GovTech\\MyEmail\\Tests\\": "tests/"
+            "Hariadi\\MyEmail\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "GovTech\\MyEmail\\MyEmailServiceProvider"
+                "Hariadi\\MyEmail\\MyEmailServiceProvider"
             ]
         }
     },

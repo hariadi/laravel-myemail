@@ -12,7 +12,7 @@ Drop-in: your existing `Mailable`s, `Notification`s, and `Mail::` calls keep wor
 ## Installation
 
 ```bash
-composer require govtech/laravel-myemail
+composer require hariadi/laravel-myemail
 ```
 
 The service provider is auto-discovered and registers a `myemail` mailer for you, so there is nothing to add to `config/mail.php`.
@@ -106,8 +106,8 @@ Failures are split by whether retrying can help:
 All three extend Symfony's `TransportException`, so existing error handling keeps working. Both request exceptions expose `status()` and `errorCode()`, letting you skip pointless retries:
 
 ```php
-use GovTech\MyEmail\Exceptions\MyEmailRequestException;
-use GovTech\MyEmail\Exceptions\MyEmailTransientException;
+use Hariadi\MyEmail\Exceptions\MyEmailRequestException;
+use Hariadi\MyEmail\Exceptions\MyEmailTransientException;
 
 public function failed(\Throwable $e): void
 {

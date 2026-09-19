@@ -1,6 +1,6 @@
 <?php
 
-namespace GovTech\MyEmail;
+namespace Hariadi\MyEmail;
 
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\ServiceProvider;

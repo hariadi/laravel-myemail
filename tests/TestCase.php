@@ -1,8 +1,8 @@
 <?php
 
-namespace GovTech\MyEmail\Tests;
+namespace Hariadi\MyEmail\Tests;
 
-use GovTech\MyEmail\MyEmailServiceProvider;
+use Hariadi\MyEmail\MyEmailServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 abstract class TestCase extends Orchestra

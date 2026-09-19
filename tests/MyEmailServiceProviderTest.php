@@ -1,8 +1,8 @@
 <?php
 
-namespace GovTech\MyEmail\Tests;
+namespace Hariadi\MyEmail\Tests;
 
-use GovTech\MyEmail\MyEmailTransport;
+use Hariadi\MyEmail\MyEmailTransport;
 use Illuminate\Http\Client\Request;
 use Illuminate\Support\Facades\Http;
 use PHPUnit\Framework\Attributes\Test;

@@ -1,6 +1,6 @@
 <?php
 
-namespace GovTech\MyEmail\Exceptions;
+namespace Hariadi\MyEmail\Exceptions;
 
 /**
  * A failure that may succeed on a later attempt: the API was unreachable,
