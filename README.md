@@ -6,8 +6,7 @@ Drop-in: your existing `Mailable`s, `Notification`s, and `Mail::` calls keep wor
 
 ## Requirements
 
-- PHP 8.2+
-- Laravel 11 or 12
+- Laravel 12 (PHP 8.2+) or Laravel 13 (PHP 8.3+)
 
 ## Installation
 
