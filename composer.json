@@ -1,0 +1,52 @@
+{
+    "name": "govtech/laravel-myemail",
+    "description": "Laravel mail transport for the MYEmail government email delivery service (HTTP API, no SMTP).",
+    "keywords": [
+        "laravel",
+        "mail",
+        "mailer",
+        "transport",
+        "myemail",
+        "government"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "illuminate/http": "^11.0 || ^12.0",
+        "illuminate/mail": "^11.0 || ^12.0",
+        "illuminate/support": "^11.0 || ^12.0",
+        "symfony/mailer": "^7.0",
+        "symfony/mime": "^7.0"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.24",
+        "orchestra/testbench": "^9.0 || ^10.0",
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GovTech\\MyEmail\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GovTech\\MyEmail\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GovTech\\MyEmail\\MyEmailServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "@php vendor/bin/phpunit",
+        "format": "@php vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
